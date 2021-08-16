@@ -10,6 +10,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--title-text-color);
   font-style: normal;
 }
 
@@ -114,6 +115,10 @@ body {
   height: 50px;
   left: 700px;
   top: 430px;
+}
+
+.pointer{
+  cursor: pointer;
 }
 
 .first-section .btn:hover,
@@ -241,6 +246,10 @@ color: var(--secondary-text-color);
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.pointer{
+  cursor: pointer;
 }
 
 .first-section-portfolio .btn:hover,
