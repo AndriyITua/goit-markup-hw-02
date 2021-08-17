@@ -61,6 +61,12 @@ body {
   list-style: none;
 }
 
+.page-header .current{
+  color: rgb(89, 118, 199);
+  font-weight: 800;
+  font-size: 15px;
+}
+
 .page-header .header-tel,
 .page-footer .footer-tel {
   color: var(--primary-text-color);
@@ -258,16 +264,16 @@ color: var(--secondary-text-color);
   background-color: var(--blue-text-color);
 }
 
-.second-section-portfolio .title{
+.first-section-portfolio .second-list-title{
   color: var(--title-text-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
-.second-section-portfolio .text{
+.first-section-portfolio .text{
   color: var(--primary-text-color);
   font-family: Roboto;
   font-style: normal;
